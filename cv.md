@@ -26,3 +26,15 @@ function makeNegative(num) {
   }
 }
 ```
+
+### Experience
+* RS Schools Course «JavaScript/Front-end. Stage 0»
+  + [**cv**](https://github.com/ter586/rsschool-cv)
+
+### Education
+* **University:** Kurgan State University, Technologist
+* **Courses:** RS Schools Course «JavaScript/Front-end. Stage 0» in progress
+
+### Languages
+* **Russian:** native
+* **English:** A2
