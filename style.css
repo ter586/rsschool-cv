@@ -16,11 +16,31 @@
 .main-header,
 .main,
 .main-footer {
+  width: 100%;
+  max-width: 1280px;
   margin: 0;
   border: 1px solid red;
 }
 
 .container {
+  width: 100%;
   max-width: 1280px;
   margin: 0 auto;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+}
+
+.link {
+  text-decoration: none;
 }
