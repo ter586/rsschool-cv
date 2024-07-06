@@ -1,3 +1,15 @@
+@font-face {
+  font-family: Roboto;
+  src: url("assets/fonts/Roboto-Light.ttf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("assets/fonts/Roboto-Regular.ttf");
+  font-weight: 400;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -15,6 +27,14 @@ html {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  font-family: Roboto;
+  font-weight: 300;
+}
+
+.section-title,
+.prof-info {
+  font-family: Roboto;
+  font-weight: 400;
 }
 
 .main-header,
