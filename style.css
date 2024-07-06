@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -54,4 +58,11 @@
   flex-direction: row;  
   justify-content: space-between;
   align-items: flex-start;
+}
+
+.main-footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
