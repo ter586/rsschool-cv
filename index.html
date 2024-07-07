@@ -13,25 +13,25 @@
       <nav class="nav">
         <ul class="nav-list">
           <li class="nav-item">
-            <a href="#contact-information" class="nav-link link">Contact information</a>
+            <a href="#contact-information" class="nav-link link">CONTACTS</a>
           </li>
           <li class="nav-item">
-            <a href="#about-me" class="nav-link link">About me</a>
+            <a href="#about-me" class="nav-link link">ABOUT ME</a>
           </li>
           <li class="nav-item">
-            <a href="#skills" class="nav-link link">Skills</a>
+            <a href="#skills" class="nav-link link">SKILLS</a>
           </li>
           <li class="nav-item">
-            <a href="#code-example" class="nav-link link">Code example</a>
+            <a href="#code-example" class="nav-link link">CODE EXAMPLE</a>
           </li>
           <li class="nav-item">
-            <a href="#experience" class="nav-link link">Experience</a>
+            <a href="#experience" class="nav-link link">EXPERIENCE</a>
           </li>
           <li class="nav-item">
-            <a href="#education" class="nav-link link">Education</a>
+            <a href="#education" class="nav-link link">EDUCATION</a>
           </li>
           <li class="nav-item">
-            <a href="#languages" class="nav-link link">Languages</a>
+            <a href="#languages" class="nav-link link">LANGUAGES</a>
           </li>
         </ul>
       </nav>
@@ -40,14 +40,14 @@
   <main class="main">
     <div class="container main-container">
       <div class="main-container-left-column">
-        <section class="section">
+        <div>
           <img class="avatar" src="./assets/img/main_photo.jpg" alt="my-photo">
-        </section>
-        <section class="section" id="contact-information">
+        </div>
+        <section class="section text-section" id="contact-information">
           <header class="section-title">
-            <h2>Contact information</h2>
+            <h2>CONTACTS</h2>
           </header>
-          <hr>
+          <hr class="delimiter">
           <ul class="contact-list">
             <li class="contact-item">
               Location: Kurgan, Russian Federation
@@ -65,48 +65,52 @@
             </li>
           </ul>
         </section>
-      </div>
-      <div class="main-container-right-column">
-        <section class="section">
+        <section class="section text-section" id="skills">
           <header class="section-title">
-            <h1>ALEKSANDR TERENTEV</h1>
+            <h2>SKILLS</h2>
           </header>
-          <h2 class="prof-info">JavaScript/Front-End developer</h2>
-        </section>
-        <section class="section" id="about-me">
-          <header class="section-title">
-            <h2>About me</h2>
-          </header>
-          <hr>
-          <p>
-            I work at a factory in the IT department. I have basic development skills. I want to become a front-end developer.
-          </p>
-        </section>
-        <section class="section" id="skills">
-          <header class="section-title">
-            <h2>Skills</h2>
-          </header>
-          <hr>
+          <hr class="delimiter">
           <ul class="skill-list">
             <li class="skill-item">
+              <img src="./assets/img/sql-logo.png" alt="sql-logo" class="skill-item-logo">
               SQL (Basic)
             </li>
             <li class="skill-item">
+              <img src="./assets/img/JavaScript-logo.png" alt="javascript-logo" class="skill-item-logo">
               JavaScript (Basic)
             </li>
             <li class="skill-item">
+              <img src="./assets/img/delphi-logo.png" alt="delphi-logo" class="skill-item-logo">
               Delphi 7 (Basic)
             </li>
             <li class="skill-item">
+              <img src="./assets/img/Csharp_Logo.png" alt="csharp-logo" class="skill-item-logo">
               C# (Basic)
             </li>
           </ul>
         </section>
-        <section class="section" id="code-example">
+      </div>
+      <div class="main-container-right-column">
+        <section class="section text-section my-name-section">
           <header class="section-title">
-            <h2>Code example</h2>
+            <h1 class="my-name">ALEKSANDR TERENTEV</h1>
           </header>
-          <hr>
+          <h2 class="prof-info">JavaScript/Front-End developer</h2>
+        </section>
+        <section class="section text-section" id="about-me">
+          <header class="section-title">
+            <h2>ABOUT ME</h2>
+          </header>
+          <hr class="delimiter">
+          <p>
+            I work at a factory in the IT department. I have basic development skills. I want to become a front-end developer.
+          </p>
+        </section>
+        <section class="section text-section" id="code-example">
+          <header class="section-title">
+            <h2>CODE EXAMPLE</h2>
+          </header>
+          <hr class="delimiter">
           <pre>
             <code>
               function makeNegative(num) {
@@ -119,11 +123,11 @@
             </code>
           </pre>
         </section>
-        <section class="section" id="experience">
+        <section class="section text-section" id="experience">
           <header class="section-title">
-            <h2>Experience</h2>
+            <h2>EXPERIENCE</h2>
           </header>
-          <hr>
+          <hr class="delimiter">
           <ul class="experience-list">
             <li class="experience-item">
               RS Schools Course «JavaScript/Front-end. Stage 0»:
@@ -131,11 +135,11 @@
             </li>
           </ul>
         </section>
-        <section class="section" id="education">
+        <section class="section text-section" id="education">
           <header class="section-title">
-            <h2>Education</h2>
+            <h2>EDUCATION</h2>
           </header>
-          <hr>
+          <hr class="delimiter">
           <ul class="education-list">
             <li class="education-item">
               University: Kurgan State University, Technologist
@@ -145,11 +149,11 @@
             </li>
           </ul>
         </section>
-        <section class="section" id="languages">
+        <section class="section text-section" id="languages">
           <header class="section-title">
-            <h2>Languages</h2>
+            <h2>LANGUAGES</h2>
           </header>
-          <hr>
+          <hr class="delimiter">
           <ul class="languages-list">
             <li class="languages-item">
               Russian: native
@@ -164,11 +168,12 @@
   </main>
   <footer class="main-footer">
     <div class="container main-footer-container">
-      <a href="https://github.com/ter586" class="link" target="_blank">
+      <a href="https://github.com/ter586" class="link github-link" target="_blank">
         <img class="github-logo" src="./assets/img/github-mark.svg" alt="github-logo">
+        <span class="github-username">ter586</span>
       </a>
       <span>2024</span>
-      <a href="https://rs.school/courses/javascript-preschool-ru" class="link" target="_blank">
+      <a href="https://rs.school/courses/javascript-ru" class="link" target="_blank">
         <img class="rsschool-logo" src="./assets/img/rsschool-logo.svg" alt="rsschool-logo">
       </a>
     </div>

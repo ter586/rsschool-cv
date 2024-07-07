@@ -28,6 +28,7 @@ html {
   align-items: center;
   font-family: Roboto;
   font-weight: 300;
+  background-color: #3C3C3C;
 }
 
 .section-title,
@@ -38,39 +39,54 @@ html {
 
 .main-header,
 .main,
-.main-footer {
+.main-footer,
+.container {
   width: 100%;
-  max-width: 1280px;
+  max-width: 960px;
+}
+
+.main-header,
+.main,
+.main-footer {
   margin: 0;
-  border: 1px solid red;
 }
 
 .container {
-  width: 100%;
-  max-width: 1280px;
+  height: 100%;
   margin: 0 auto;
 }
 
 .nav-list {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-around;
   align-items: center;
+  margin: 0;
+  padding-left: 0;
   list-style: none;
-}
-
-.nav-link {
-  padding: 0 20px;
-  line-height: 50px;
 }
 
 .link {
   height: 100%;
   text-decoration: none;
+  color: #FECB00;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  line-height: 50px;
+  color: #212026;
 }
 
 .avatar {
-  width: 40%;
+  width: 100%;
+}
+
+.nav,
+.nav-list {
+  height: 100%;
 }
 
 .rsschool-logo,
@@ -78,17 +94,137 @@ html {
   height: 100%;
 }
 
+.main-header {
+  height: 40px;
+  font-weight: 400;
+}
+
+.main-footer {
+  height: 70px;
+  font-weight: 400;
+  font-size: larger;
+}
+
 .main-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: stretch;
 }
 
 .main-footer-container {
-  height: 70px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+}
+
+.main-container-left-column {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  background-color: white;
+  flex: 1;
+  background-color: #212026;
+  color: white;
+}
+
+.main-container-right-column {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  background-color: white;
+}
+
+.main-header,
+.main-footer {
+  background-color: #FECB00;
+}
+
+.contact-item,
+.skill-item,
+.experience-item,
+.education-item,
+.languages-item {
+  margin-top: 15px;
+}
+
+.text-section {
+  margin-left: 40px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.delimiter {
+  margin: 0;
+  padding: 0;
+  height: 0;
+  border: none;
+  border-top: 2px solid #212026;
+}
+
+.main-container-left-column .delimiter {
+  margin: 0;
+  padding: 0;
+  height: 0;
+  border: none;
+  border-top: 2px solid #FECB00;
+}
+
+.prof-info {
+  margin-top: 0;
+}
+
+.my-name {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: xxx-large;
+}
+
+.main-footer-container .link {
+  height: 60%;
+}
+
+.my-name-section {
+  margin-top: 50px;
+  margin-left: 0;
+  padding-top: 20px;
+  padding-left: 40px;
+  background-color: #FECB00;
+}
+
+.github-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: black;
+}
+
+.github-username {
+  margin-left: 10px;
+}
+
+.nav-item {
+  height: 100%;
+}
+
+.skill-list {
+  padding-left: 15px;
+}
+
+.skill-item {
+  height: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.skill-item-logo {
+  height: 100%;
+  margin-right: 10px;
+}
+
+.main-container-right-column .link {
+  color:slateblue
 }
